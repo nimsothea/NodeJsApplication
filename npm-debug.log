@@ -1,0 +1,111 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/5.5.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'git://github.com/nimsothea/NodeJSApplication.git' ]
+2 info using npm@3.5.3
+3 info using node@v5.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData git://github.com/nimsothea/NodeJSApplication.git
+8 silly fetchOtherPackageData git://github.com/nimsothea/NodeJSApplication.git
+9 silly cache add args [ 'git://github.com/nimsothea/NodeJSApplication.git', null ]
+10 verbose cache add spec git://github.com/nimsothea/NodeJSApplication.git
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'git://github.com/nimsothea/NodeJSApplication.git',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'git://github.com/nimsothea/NodeJSApplication.git',
+11 silly cache add   spec: 'git://github.com/nimsothea/NodeJSApplication.git',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:nimsothea/NodeJSApplication.git',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/nimsothea/NodeJSApplication.git',
+11 silly cache add      httpsUrl: 'git+https://github.com/nimsothea/NodeJSApplication.git',
+11 silly cache add      gitUrl: 'git://github.com/nimsothea/NodeJSApplication.git',
+11 silly cache add      shortcut: 'github:nimsothea/NodeJSApplication',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/nimsothea/NodeJSApplication/master/package.json' } }
+12 verbose addRemoteGit caching git://github.com/nimsothea/NodeJSApplication.git
+13 verbose addRemoteGit git://github.com/nimsothea/NodeJSApplication.git is a repository hosted by github
+14 silly tryClone cloning git://github.com/nimsothea/NodeJSApplication.git via git://github.com/nimsothea/NodeJSApplication.git
+15 verbose tryClone git-github-com-nimsothea-NodeJSApplication-git-9eef4734 not in flight; caching
+16 info git [ 'config', '--get', 'remote.origin.url' ]
+17 silly validateExistingRemote git://github.com/nimsothea/NodeJSApplication.git remote.origin.url: git://github.com/nimsothea/NodeJSApplication.git
+18 verbose validateExistingRemote git://github.com/nimsothea/NodeJSApplication.git is updating existing cached remote /Users/snim/.npm/_git-remotes/git-github-com-nimsothea-NodeJSApplication-git-9eef4734
+19 info git [ 'fetch', '-a', 'origin' ]
+20 verbose updateRemote git fetch -a origin (git://github.com/nimsothea/NodeJSApplication.git)
+21 verbose setPermissions git://github.com/nimsothea/NodeJSApplication.git set permissions on /Users/snim/.npm/_git-remotes/git-github-com-nimsothea-NodeJSApplication-git-9eef4734
+22 verbose resolveHead git://github.com/nimsothea/NodeJSApplication.git original treeish: master
+23 info git [ 'rev-list', '-n1', 'master' ]
+24 silly resolveHead git://github.com/nimsothea/NodeJSApplication.git resolved treeish: 1b7a03b07e7630871683286c4471cbcfd8df7bb6
+25 verbose resolveHead git://github.com/nimsothea/NodeJSApplication.git resolved Git URL: git://github.com/nimsothea/NodeJSApplication.git#1b7a03b07e7630871683286c4471cbcfd8df7bb6
+26 silly resolveHead Git working directory: /var/folders/qc/nx3z3jlj6r97pnvzynfzzgpr0000gn/T/npm-6914-135ae784/git-cache-52b92b76/1b7a03b07e7630871683286c4471cbcfd8df7bb6
+27 info git [ 'clone',
+27 info git   '/Users/snim/.npm/_git-remotes/git-github-com-nimsothea-NodeJSApplication-git-9eef4734',
+27 info git   '/var/folders/qc/nx3z3jlj6r97pnvzynfzzgpr0000gn/T/npm-6914-135ae784/git-cache-52b92b76/1b7a03b07e7630871683286c4471cbcfd8df7bb6' ]
+28 verbose cloneResolved git://github.com/nimsothea/NodeJSApplication.git clone Cloning into '/var/folders/qc/nx3z3jlj6r97pnvzynfzzgpr0000gn/T/npm-6914-135ae784/git-cache-52b92b76/1b7a03b07e7630871683286c4471cbcfd8df7bb6'...
+28 verbose cloneResolved done.
+29 info git [ 'checkout', '1b7a03b07e7630871683286c4471cbcfd8df7bb6' ]
+30 verbose checkoutTreeish git://github.com/nimsothea/NodeJSApplication.git checkout Note: checking out '1b7a03b07e7630871683286c4471cbcfd8df7bb6'.
+30 verbose checkoutTreeish
+30 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+30 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+30 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+30 verbose checkoutTreeish
+30 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+30 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+30 verbose checkoutTreeish
+30 verbose checkoutTreeish   git checkout -b <new-branch-name>
+30 verbose checkoutTreeish
+30 verbose checkoutTreeish HEAD is now at 1b7a03b... push latest code changes to NodeJSApplication repo
+31 verbose addLocalDirectory /Users/snim/.npm/NodeJsApplication/1.0.0/package.tgz not in flight; packing
+32 verbose tar pack [ '/Users/snim/.npm/NodeJsApplication/1.0.0/package.tgz',
+32 verbose tar pack   '/var/folders/qc/nx3z3jlj6r97pnvzynfzzgpr0000gn/T/npm-6914-135ae784/git-cache-52b92b76/1b7a03b07e7630871683286c4471cbcfd8df7bb6' ]
+33 verbose tarball /Users/snim/.npm/NodeJsApplication/1.0.0/package.tgz
+34 verbose folder /var/folders/qc/nx3z3jlj6r97pnvzynfzzgpr0000gn/T/npm-6914-135ae784/git-cache-52b92b76/1b7a03b07e7630871683286c4471cbcfd8df7bb6
+35 verbose addLocalTarball adding from inside cache /Users/snim/.npm/NodeJsApplication/1.0.0/package.tgz
+36 verbose addRemoteGit data._from: git://github.com/nimsothea/NodeJSApplication.git
+37 verbose addRemoteGit data._resolved: git://github.com/nimsothea/NodeJSApplication.git#1b7a03b07e7630871683286c4471cbcfd8df7bb6
+38 silly cache afterAdd NodeJsApplication@1.0.0
+39 verbose afterAdd /Users/snim/.npm/NodeJsApplication/1.0.0/package/package.json not in flight; writing
+40 verbose afterAdd /Users/snim/.npm/NodeJsApplication/1.0.0/package/package.json written
+41 silly install normalizeTree
+42 silly loadCurrentTree Finishing
+43 silly loadIdealTree Starting
+44 silly install loadIdealTree
+45 silly cloneCurrentTree Starting
+46 silly install cloneCurrentTreeToIdealTree
+47 silly cloneCurrentTree Finishing
+48 silly loadShrinkwrap Starting
+49 silly install loadShrinkwrap
+50 silly loadShrinkwrap Finishing
+51 silly loadAllDepsIntoIdealTree Starting
+52 silly install loadAllDepsIntoIdealTree
+53 silly rollbackFailedOptional Starting
+54 silly rollbackFailedOptional Finishing
+55 silly runTopLevelLifecycles Starting
+56 silly runTopLevelLifecycles Finishing
+57 silly install printInstalled
+58 verbose stack Error: Refusing to install NodeJsApplication as a dependency of itself
+58 verbose stack     at checkSelf (/usr/local/lib/node_modules/npm/lib/install/validate-args.js:40:14)
+58 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+58 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+58 verbose stack     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+58 verbose stack     at /usr/local/lib/node_modules/npm/lib/install/validate-args.js:15:5
+58 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+58 verbose stack     at Array.forEach (native)
+58 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+58 verbose stack     at Array.forEach (native)
+58 verbose stack     at asyncMap (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+59 verbose cwd /Users/snim/workspace/nodejs/NodeJsApplication
+60 error Darwin 14.5.0
+61 error argv "/usr/local/Cellar/node/5.5.0/bin/node" "/usr/local/bin/npm" "install" "git://github.com/nimsothea/NodeJSApplication.git"
+62 error node v5.5.0
+63 error npm  v3.5.3
+64 error code ENOSELF
+65 error Refusing to install NodeJsApplication as a dependency of itself
+66 error If you need help, you may report this error at:
+66 error     <https://github.com/npm/npm/issues>
+67 verbose exit [ 1, true ]
