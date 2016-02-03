@@ -1,8 +1,33 @@
 {
-    "name": "NodeJsApplication",
-    "version": "1.0.0",
-    "keywords": ["util", "functional", "server", "client", "browser"],
-    "author": "snim",
-    "contributors": [],
-    "dependencies": {}
+  "name": "NodeJsApplication",
+  "version": "1.0.0",
+  "description": "This package is for NodeJS application only.",
+  "main": "main.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nimsothea/NodeJsApplication.git"
+  },
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "Sothea Nim <me@sotheanim.com> (http://www.sotheanim.com)",
+  "contributors": [],
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/nimsothea/NodeJsApplication/issues"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
 }
