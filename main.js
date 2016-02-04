@@ -57,12 +57,12 @@ module.exports = {
         });
     }
 };
-
+var html = '<h1>Hello World</h1>';
+/*
 var NodeJsApplication = require('NodeJsApplication');
-var html = '<h1>Hello World</h1>',
-    escaped = NodeJsApplication.escape(html),
+var escaped = NodeJsApplication.escape(html),
     unescaped = NodeJsApplication.unescape(escaped);
-
+*/
 var http = require('http');
 var url = require('url');
 var querystring = require('querystring');
@@ -78,8 +78,6 @@ var server = http.createServer(function (req, res) {
     else {
         res.write('You do have a first name and a last name, don\'t you?');
     }
-    
-    console.log('html', html, 'escaped', escaped, 'unescaped', unescaped);
     
     res.end();
 });
